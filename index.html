@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crypto</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="bootstrap-icons/bootstrap-icons.css">
+  <link rel="stylesheet" href="loader.css">
+</head>
+<body>
+  <div class="container">
+    <div class="loader">
+      <span class="loading"></span>
+    </div>
+  </div>
+
+  <div class='header'>
+    <div class="container">
+      <a href="index.html">
+        <img src="images/logo.png" alt="logo"/>
+      </a>
+      <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="marketplace.html">Market Place</a></li>
+        <li><a href="product.html">Product</a></li>
+        <li><a href="order.html">Order</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <i class="bi bi-x hamburger" onClick="closeMenu()"></i>
+      </ul>
+      <div id="flex">
+        <div class="cart-group">
+          <a href="cart.html">
+            <i class="bi bi-cart cart-icon"></i>
+          </a>
+          <span class="cartQuantity">0</span>
+        </div>
+        <div id="image-group">
+          <i class="bi bi-person-fill person"></i>
+        </div>
+      </div>
+
+      <div class="profile-group">
+        <p class="p-name">Austin Developer</p>
+        <div class="flex">
+          <a href="profile.html" class="profile-btn">profile</a>
+          <a href="#" class="logout-btn">logout</a>
+        </div>
+        <p class="account">
+          <a href="login.html">login</a> / 
+          <a href="register.html">register</a>
+        </p>
+      </div>
+      <i class="bi bi-list hamburger" onClick="openMenu()"></i>
+    </div>
+  </div>
+
+  <!-- --------- HERO SECTION -------- -->
+
+  <div class="hero">
+    <div class="container">
+      <h1>Thrive <span class="primary">Token</span></h1>
+        <p class="text">
+          Thrive <span class="primary">Token</span> on the Solana blockchain represents a groundbreaking step towards fostering sustainable growth, prosperity, and inclusivity in communities worldwide. Leveraging the high-performance and scalable infrastructure of Solana, Thrive Token aims to revolutionize the way we approach social impact initiatives and community development.
+        </p>
+        <div class="btn-container">
+          <a href="about.html">
+            <button class='btn'>Learn More</button>
+          </a>
+        </div>
+    </div>
+  </div>
+
+
+  <!-------------- COIN TABLE ------------>
+
+  <div class="home-coin-card">
+    <div class="container">
+      <h1>Top Coins</h1>
+      <div class="title">
+        <div class="home-card-title">
+          <div class="name title-name">
+            <p>Name</p>
+          </div>
+          <div class="price">
+            <p>Price</p>
+          </div>
+          <div class="percent p">
+            <p>1h%</p>
+          </div>
+          <div class="percent p2 p">
+            <p>24h%</p>
+          </div>
+          <div class="percent p3">
+            <p>7d%</p>
+          </div>
+          <div class="market mc">
+            <p>Market Cap</p>
+          </div>
+        </div>
+      </div>
+      <div id="btc"></div>
+      <div id="eth"></div>
+      <div id="usdt"></div>
+      <div id="bnb"></div>
+      <div id="sol"></div>
+      <div class="table-btn">
+        <a href="marketplace.html">
+          <button class='btn'>See More</button>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!----------- SLIDER SECTION ---------->
+  <div class="slider-container">
+    <div class="slider">
+      <div class="slides">
+        <img src="images/img1.webp" class="slide">
+        <img src="images/img3.webp" class="slide">
+        <img src="images/img4.webp" class="slide">
+        <img src="images/img5.jpeg" class="slide">
+        <img src="images/img6.png" class="slide">
+        <img src="images/img7.png" class="slide">
+      </div>
+  
+      <button class="prev" onclick="prevSlide()">
+        &#10094
+      </button>
+      <button class="next" onclick="nextSlide()">
+        &#10095
+      </button>
+    </div>
+
+    <div class="slider2">
+      <h1>Check Out Our Unique Products.</h1>
+      <p>
+        Utilize Thrive Token to crowdfund real estate projects, sustainable lifestyle products, Organic and Natural Care, Health and Wellness Services...
+      </p>
+      <a href="product.html">
+        <button class='btn'>Learn More</button>
+      </a>
+    </div>
+  </div>
+  
+
+  <!----------- FUNDING SECTION ------------>
+  <div class='funding'>
+    <div class="container">
+      <div class="right-side">
+        <div class="img-container">
+          <img src="images/profit-loss-light.gif" alt="profit & loss" />
+        </div>
+      </div>
+
+      <div class="left-side">
+        <h1>
+          But wait, There's more! Thrive Token's Profit Platform isn't just about numbers
+        </h1>
+        <p>
+          -it's a community-driven ecosystem that rewards you for your commitment to thriving together. As you level up your crypto investment strategy and achieve greater success, you'll earn rewards and unlock exclusive benefits within our thriving community.
+        </p>
+        <button class='btn'>Learn More</button>
+      </div>
+    </div>
+  </div>
+
+    <!------------- CONTACT SECTION --------->
+  <div class='contact'>
+    <div class="container">
+      <div class="left-side">
+        <div class="img-container">
+          <img src="images/phone3d.gif" alt="phone" />
+        </div>
+      </div>
+      <div class="right-side">
+        <h1>Earn passive income with Thrive Token.</h1>
+        <p>
+          Earn up to 30% referral rewards on digital assets. Simply refer friends to activate packages and automatically earn rewards.
+        </p>
+        <button class='btn'>Learn More</button>
+      </div>
+    </div>
+  </div>
+
+  <!---------- NEWSLETTER SECTION ------------>
+  <div id="newsletter" class="container-p1 container-m1">
+    <div class="class">
+      <h4>Sign Up For Newsletter</h4>
+      <p>
+        Get E-mail updates about our latest products and 
+        <span>special offer</span> 
+      </p>
+    </div>
+    <div class="form">
+      <input
+        class="input2"
+        type="email"
+        placeholder='Email address'
+      />
+      <button class='btn'>Sign up</button>
+    </div>
+  </div>
+  
+
+  <!------------ FOOTER SECTION ------------>
+  <div class='footer'>
+    <p>Get in touch</p>
+    <div class="social-icon">
+      <a href="/"><i class="bi bi-facebook icon"></i></a>
+      <a href="/"><i class="bi bi-github icon"></i></a>
+      <a href="/"><i class="bi bi-linkedin icon"></i></a>
+    </div>
+
+    <div class="app">
+      <a href="">
+        <img src="images/app-store-icon.png" alt="app-store">
+      </a>
+      <a href="">
+        <img src="images/playstore1.png" alt="play-store">
+      </a>
+    </div>
+    <div class="container">
+      <div class="col">
+        <h5>Company</h5>
+        <span class='bar'></span>
+          <a href="/">Product Updates</a>
+          <a href="/">Pricing</a>
+          <a href="/">Career</a>
+      </div>
+      <div class="col">
+        <h5>Support</h5>
+        <span class='bar'></span>
+          <a href="/">Chat</a>
+          <a href="/">Help Center</a>
+          <a href="/">FAQ</a>
+      </div>
+      <div class="col">
+        <h5>Explore</h5>
+        <span class='bar'></span>
+          <a href="/">Crypto Tracker</a>
+          <a href="/">Thrive Token Debit card</a>
+          <a href="/">Earn</a>
+          <a href="/">Crypto News</a>
+          <a href="/">Blog</a>
+      </div>
+      <div class="col">
+        <h5>Quick Link</h5>
+        <span class='bar'></span>
+          <a href="/">Home</a>
+          <a href="/">About</a>
+          <a href="/">Market</a>
+          <a href="/">Product</a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let navMenu = document.querySelector(".nav-menu");
+
+    function openMenu(){
+      navMenu.style.right = "0";
+    }
+
+    function closeMenu(){
+      navMenu.style.right = "-250px";
+    }
+  </script>
+
+<script>
+  profile = document.querySelector(".profile-group");
+
+  document.querySelector("#image-group").onclick = ()=>{
+    profile.classList.toggle("active");
+  }
+</script>
+
+  <!-------- SLIDER JS ---------->
+  <script>
+    const slides = document.querySelectorAll(".slides img");
+    let slideIndex = 0;
+    let intervalId = null;
+
+    document.addEventListener("DOMContentLoaded", initializeSlider)
+    function initializeSlider(){
+      if(slides.length > 0){
+        slides[slideIndex].classList.add("displaySlide");
+        intervalId = setInterval(nextSlide, 5000);
+      }
+
+    }
+    
+    function showSlide(index){
+      if(index >= slides.length){
+        slideIndex = 0;
+      }
+      else if(index < 0){
+        slideIndex = slides.length - 1;
+      }
+
+      slides.forEach(slide => {
+        slide.classList.remove("displaySlide");
+      });
+      slides[slideIndex].classList.add("displaySlide");
+    }
+
+    function prevSlide(){
+      clearInterval(intervalId)
+      slideIndex--;
+      showSlide(slideIndex);
+    }
+
+    function nextSlide(){
+      slideIndex++;
+      showSlide(slideIndex);
+    }
+  </script>
+
+  <script src="index.js"></script>
+  <script src="loader.js"></script>
+</body>
+</html>

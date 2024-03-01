@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crypto</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="newPage.css">
+  <link rel="stylesheet" href="bootstrap-icons/bootstrap-icons.css">
+  <link rel="stylesheet" href="loader.css">
+</head>
+<body>
+
+  <div class='header'>
+    <div class="container">
+      <a href="index.html">
+        <img src="images/logo.png" alt="logo"/>
+      </a>
+      <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="marketplace.html">Market Place</a></li>
+        <li><a href="product.html">Product</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <i class="bi bi-x hamburger" onClick="closeMenu()"></i>
+      </ul>
+      <div class="btn-group">
+        <a href=""><button class='btn'>Login</button></a>
+      </div>
+      <i class="bi bi-list hamburger" onClick="openMenu()"></i>
+    </div>
+  </div>
+
+  <!----------- PRODUCTS SECTION ------------->
+
+  <div id="product1" class="container-p1">
+    <h1>Featured Products</h1>
+    <p class="product-title">New Collection and Affordable</p>
+    <div class="product-container">
+      <div class="product-card">
+        <form action="" method="post">
+          <img src="images/T-shirt.jpg" alt="">
+          <a href="#" class="cat">Cloth</a>
+          <div class="name-tag">Blue Men's T-shirt</div>
+          <div class="price-qty">
+            <div class="price-tag"><span>$</span>100</div>
+            <input type="number" name="qty" class="qty" min="1" max="10" value="1" onkeypress="if(this.value.length == 2) return false;">
+          </div>
+          <div class="btn-container">
+            <button type="submit" class="btn3 view" name="view">
+              View Product
+            </button>
+            <button type="submit" class="btn3" name="cart">
+              Add to Cart
+            </button>
+          </div>
+        </form>
+      </div>
+      <div class="product-card">
+        <form action="" method="post">
+          <img src="images/coffeemaker.jpg" alt="">
+          <a href="#" class="cat">Glass</a>
+          <div class="name-tag">Coffee Maker</div>
+          <div class="price-qty">
+            <div class="price-tag"><span>$</span>90</div>
+            <input type="number" name="qty" class="qty" min="1" max="10" value="1" onkeypress="if(this.value.length == 2) return false;">
+          </div>
+          <div class="btn-container">
+            <button type="submit" class="btn3 view" name="view">
+              View Product
+            </button>
+            <button type="submit" class="btn3" name="cart">
+              Add to Cart
+            </button>
+          </div>
+        </form>
+      </div>
+      <div class="product-card">
+        <form action="" method="post">
+          <img src="images/non-stick-baking-set.webp" alt="">
+          <a href="#" class="cat">Black</a>
+          <div class="name-tag">Baking Set</div>
+          <div class="price-qty">
+            <div class="price-tag"><span>$</span>100</div>
+            <input type="number" name="qty" class="qty" min="1" max="10" value="1" onkeypress="if(this.value.length == 2) return false;">
+          </div>
+          <div class="btn-container">
+            <button type="submit" class="btn3 view" name="view">
+              View Product
+            </button>
+            <button type="submit" class="btn3" name="cart">
+              Add to Cart
+            </button>
+          </div>
+        </form>
+      </div>
+      <div class="product-card">
+        <form action="" method="post">
+          <img src="images/curtain.jpg" alt="">
+          <a href="#" class="cat">Curtain</a>
+          <div class="name-tag">Black Curtain</div>
+          <div class="price-qty">
+            <div class="price-tag"><span>$</span>110</div>
+            <input type="number" name="qty" class="qty" min="1" max="10" value="1" onkeypress="if(this.value.length == 2) return false;">
+          </div>
+          <div class="btn-container">
+            <button type="submit" class="btn3 view" name="view">
+              View Product
+            </button>
+            <button type="submit" class="btn3" name="cart">
+              Add to Cart
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <!---------- NEWSLETTER SECTION ------------>
+  <div id="newsletter" class="container-p1 container-m1">
+    <div class="class">
+      <h4>Sign Up For Newsletter</h4>
+      <p>
+        Get E-mail updates about our latest products and 
+        <span>special offer</span> 
+      </p>
+    </div>
+    <div class="form">
+      <input
+        class="input2"
+        type="email"
+        placeholder='Email address'
+      />
+      <button class='btn'>Sign up</button>
+    </div>
+  </div>
+
+  <!------------ FOOTER SECTION ------------>
+  <div class='footer'>
+    <p>Get in touch</p>
+    <div class="social-icon">
+      <a href="/"><i class="bi bi-facebook icon"></i></a>
+      <a href="/"><i class="bi bi-github icon"></i></a>
+      <a href="/"><i class="bi bi-linkedin icon"></i></a>
+    </div>
+
+    <div class="app">
+      <a href="">
+        <img src="images/app-store-icon.png" alt="app-store">
+      </a>
+      <a href="">
+        <img src="images/playstore1.png" alt="play-store">
+      </a>
+    </div>
+    <div class="container">
+      <div class="col">
+        <h5>Company</h5>
+        <span class='bar'></span>
+          <a href="/">Product Updates</a>
+          <a href="/">Pricing</a>
+          <a href="/">Career</a>
+      </div>
+      <div class="col">
+        <h5>Support</h5>
+        <span class='bar'></span>
+          <a href="/">Chat</a>
+          <a href="/">Help Center</a>
+          <a href="/">FAQ</a>
+      </div>
+      <div class="col">
+        <h5>Explore</h5>
+        <span class='bar'></span>
+          <a href="/">Crypto Tracker</a>
+          <a href="/">Thrive Token Debit card</a>
+          <a href="/">Earn</a>
+          <a href="/">Crypto News</a>
+          <a href="/">Blog</a>
+      </div>
+      <div class="col">
+        <h5>Quick Link</h5>
+        <span class='bar'></span>
+          <a href="/">Home</a>
+          <a href="/">About</a>
+          <a href="/">Market</a>
+          <a href="/">Product</a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let navMenu = document.querySelector(".nav-menu");
+
+    function openMenu(){
+      navMenu.style.right = "0";
+    }
+
+    function closeMenu(){
+      navMenu.style.right = "-250px";
+    }
+  </script>
+
+</body>
+</html>

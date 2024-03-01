@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.loader{
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  transition: visibility 2s;
+  z-index: 10;
+}
+
+.loader-hidden{
+  visibility: hidden;
+}
+
+.loading{
+  width: 60px;
+  height: 60px;
+  border: 12px solid #ddd;
+  border-radius: 50%;
+  border-right-color: var(--primary);
+  animation: spin 1s ease infinite;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
